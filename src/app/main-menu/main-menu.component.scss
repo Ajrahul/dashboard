@@ -1,0 +1,54 @@
+
+.main-menu-container {
+    display: flex;
+    min-width: 1440px;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.user-img  {
+    max-width: 45%;
+    &:hover {
+        transform: scale(1.1);
+        transition: transform .5s;
+        cursor: pointer;
+    }
+}
+
+.logo-container {
+    width:180px;
+    img {
+        width: 180px;
+        padding: 16px;
+    }
+}
+
+.menu-btn-wrapper {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+
+    .searchicon {
+        padding: 10px;
+        border-right: 1px solid #d3d3e7;
+    }
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+    cursor: pointer;
+}

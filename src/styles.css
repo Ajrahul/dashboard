@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@media (min-width: 1200px){
+
+    .container {
+        max-width: 1320px;
+    }
+
+}
+
+.bs-datepicker-container{
+    padding: 20px;
+    background-color: ghostwhite;
+}
+
+.dropdown-wrapper button, .date-wrapper input{
+    border-radius: 50px;
+    text-align: center;
+}
