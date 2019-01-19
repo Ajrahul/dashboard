@@ -21,12 +21,6 @@
   vertical-align: middle;
 }
 
-.table-sm tr {
-  font-size: 14px;
-  color: rgba(43, 48, 52, 0.4);
-  vertical-align: middle;
-}
-
 .table-sm td img {
   cursor: pointer;
   width: 5px;
@@ -41,6 +35,16 @@
           transform: scale(1.5);
 }
 
+.table-sm tr {
+  font-size: 14px;
+  color: rgba(43, 48, 52, 0.4);
+  vertical-align: middle;
+}
+
+.table-sm tr:hover {
+  background-color: #ddd;
+}
+
 .popupThemegreen {
   background-color: #44626e;
 }
@@ -52,6 +56,18 @@
   width: 310px;
   -webkit-box-shadow: 5px 5px 3px #888888;
           box-shadow: 5px 5px 3px #888888;
+}
+
+.pop-count ::after {
+  content: "\f054";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent transparent #44626e;
+  z-index: 100;
 }
 
 .pop-items {
@@ -69,18 +85,6 @@
   color: #ffff;
   font-size: 9px;
   text-decoration: none;
-}
-
-.pop-count::after {
-  content: "\f054";
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-top: -7px;
-  border-width: 7px;
-  border-style: solid;
-  border-color: transparent transparent transparent #44626e;
-  z-index: 100;
 }
 
 .popup-wrapper {

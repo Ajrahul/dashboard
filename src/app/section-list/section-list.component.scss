@@ -1,71 +1,61 @@
 .main-section-list {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);
 }
 
-.section-list-header{
-    padding-bottom: 20px;
-    
-}
-.section-list-header h3{
+.section-list-header {
+  padding-bottom: 20px;
+
+  h3 {
     font-size: 20px;
+  }
 }
 
 .table-sm td {
-    font-size: 12px;
-    height: 56px;
-    color: #626364;
-    vertical-align: middle;
-}
+  font-size: 12px;
+  height: 56px;
+  color: #626364;
+  vertical-align: middle;
 
-
-.table-sm tr {
-    font-size: 14px;
-    color: rgba(43, 48, 52, 0.4);
-    vertical-align: middle;
-}
-
-.table-sm td img {
+  img {
     cursor: pointer;
     width: 5px;
     float: right;
     max-width: 100%;
     opacity: .5;
     color: #abb3ba;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
 }
 
-.table-sm td img:hover {
-    transform: scale(1.5);
+
+.table-sm tr {
+  font-size: 14px;
+  color: rgba(43, 48, 52, 0.4);
+  vertical-align: middle;
+
+  &:hover {
+    background-color: #ddd;
+  }
 }
 
 .popupThemegreen {
-    background-color: #44626e;
+  background-color: #44626e;
 }
 
-.pop-count{
-    display: block;
-    cursor: pointer;
-    height: 56px;
-    width: 310px;
-    box-shadow: 5px 5px 3px #888888;
-}
+.pop-count {
+  display: block;
+  cursor: pointer;
+  height: 56px;
+  width: 310px;
+  box-shadow: 5px 5px 3px #888888;
 
-.pop-items{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 10px;
-}
-
-.pop-items a {
-    color: #ffff;
-    font-size: 9px;
-    text-decoration: none;
-}
-
-.pop-count::after {
+  ::after {
     content: "\f054";
     position: absolute;
     top: 50%;
@@ -75,10 +65,24 @@
     border-style: solid;
     border-color: transparent transparent transparent #44626e;
     z-index: 100;
+  }
+}
+
+.pop-items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+
+  a {
+    color: #ffff;
+    font-size: 9px;
+    text-decoration: none;
+  }
 }
 
 .popup-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
 }

@@ -12,6 +12,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-bottom: 30px;
 }
 
@@ -20,7 +22,7 @@
 }
 
 .container-title {
-  padding: 25px 25px 25px 300px;
+  padding-top: 20px;
   font-family: Roboto;
   font-size: 30px;
   font-weight: 300;
@@ -52,6 +54,10 @@
           box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);
 }
 
+.card-wrapper {
+  margin-bottom: 20px;
+}
+
 .card-block .card-title {
   padding-left: 10px;
   margin: 0px;
@@ -74,5 +80,13 @@
 .card-img-bottom {
   width: 80%;
   padding: 15px 0 0 15px;
+}
+
+@media (max-width: 767px) {
+  .dashboard-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=dashboard.component.css.map */

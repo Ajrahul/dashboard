@@ -1,25 +1,45 @@
-// text .highcharts-xaxis-labels{
-//     text-decoration: none !important;
-//     color: rebeccapurple;
-//     }
+.chart-container-header {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  justify-content: space-around;
 
-.chart-container-header{
-    display: flex;
-    padding: 20px;
-    background-color: white;
-    
+  h4 {
+    font-size: 20px;
+  }
 }
 
-.btn-type{
-    background-color: #fff;
-    border: 1px solid #eaeaee;
+.btn-type {
+  background-color: #fff;
+  border: 1px solid #eaeaee;
 }
 
-.bs-datepicker-container{
-    padding: 20px;
-    background-color: ghostwhite;
+.bs-datepicker-container {
+  padding: 20px;
+  background-color: ghostwhite;
 }
 
-.container-fluid{
-    padding-bottom: 30px;
+.container-fluid {
+  padding-bottom: 30px;
+}
+
+#bar-container {
+  min-width: 0px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#pie-container {
+  min-width: 0px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.chart-wrapper {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.date-wrapper {
+  width: 90%;
 }

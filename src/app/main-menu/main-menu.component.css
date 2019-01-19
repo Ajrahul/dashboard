@@ -2,10 +2,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-width: 1440px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: none;
 }
 
 .menu-container {
@@ -51,7 +51,7 @@ ul {
 }
 
 .menu-btn-wrapper {
-  width: 180px;
+  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

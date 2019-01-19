@@ -3,7 +3,13 @@
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  background-color: white;
+  background-color: #fff;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.chart-container-header h4 {
+  font-size: 20px;
 }
 
 .btn-type {
@@ -18,5 +24,26 @@
 
 .container-fluid {
   padding-bottom: 30px;
+}
+
+#bar-container {
+  min-width: 0px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#pie-container {
+  min-width: 0px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.chart-wrapper {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.date-wrapper {
+  width: 90%;
 }
 /*# sourceMappingURL=charts.component.css.map */

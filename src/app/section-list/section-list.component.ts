@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-section-list',
@@ -10,11 +10,7 @@ export class SectionListComponent implements OnInit {
   constructor() { }
 
   public show = true;
-  // // public buttonName: any = 'Show';
 
-  // visible = true;
-  // @Output() open: EventEmitter<any> = new EventEmitter();
-  // @Output() close: EventEmitter<any> = new EventEmitter();
   ngOnInit() {
     this.toggle();
   }
